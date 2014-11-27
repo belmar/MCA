@@ -1,0 +1,230 @@
+
+@media (max-width: 1160px){
+	section#inner-page .enroll{
+		padding-bottom:30px;
+	}
+}
+
+@media (max-width: 1060px){
+	/*Mobile Navigation START-RESET*/
+	nav{
+	}
+	nav ul.menu li{
+		float:none;
+	}
+
+
+	nav ul.menu li a{
+		text-decoration:none;
+		display:block;
+		padding:0;
+		border-top:none;
+		font-size:14px;
+		line-height:24px;
+		color:#333333;
+
+	  -webkit-animation: none; /* Safari 4+ */
+	  -moz-animation:    none; /* Fx 5+ */
+	  -o-animation:      none; /* Opera 12+ */
+	  animation:         none; /* IE 10+, Fx 29+ */
+	}
+
+	nav ul.menu li a:hover{
+	  -webkit-animation: none; /* Safari 4+ */
+	  -moz-animation:    none; /* Fx 5+ */
+	  -o-animation:      none; /* Opera 12+ */
+	  animation:         none; /* IE 10+, Fx 29+ */
+	}
+
+	nav ul.menu li:last-child a{
+		border:none;
+		padding:0;
+		font-size:14px;
+		color:#333;
+		text-transform:capitalize;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		margin-top:0;
+		margin-left:0;
+	}
+
+	nav ul.menu li:last-child:hover a{
+		background:none;
+		color:#fff;
+	}
+
+	nav ul.menu li:last-child:hover a::after{
+		display:none;
+	}
+
+	nav ul.menu li:last-child a:after{
+		display:none;
+	}
+
+		/*Mobile Navigation Start Restyle*/
+		nav ul.menu{
+			background:#0a397c;
+			min-width:220px;
+			width:calc(50% - 100px);
+			position:fixed;
+			z-index: 9999;
+			top:0;
+			left:0;
+			border-right:3px solid #fff;
+			height:100%;
+			margin-left:calc(0px - (50% + 100px));
+			margin-left: -500px;
+		}
+		nav ul.menu li:last-child a,
+		nav ul.menu li a{
+			text-transform: uppercase;
+			color:#fff;
+			padding:15px 10px 15px 25px;
+
+			 /*CSS transitions*/
+			 -o-transition-property: none !important;
+			 -moz-transition-property: none !important;
+			 -ms-transition-property: none !important;
+			 -webkit-transition-property: none !important;
+			 transition-property: none !important;
+			 /*CSS transforms*/
+			 -o-transform: none !important;
+			 -moz-transform: none !important;
+			 -ms-transform: none !important;
+			 -webkit-transform: none !important;
+			 transform: none !important;
+			 /*CSS animations*/
+			 -webkit-animation: none !important;
+			 -moz-animation: none !important;
+			 -o-animation: none !important;
+			 -ms-animation: none !important;
+			 animation: none !important;
+			
+		}
+
+
+		nav ul.menu li.current_menu_item a,
+		nav ul.menu li.current_page_item a,
+		nav ul.menu li:last-child a:hover,
+		nav ul.menu li a:hover{
+			background:#fff;
+			color:#0a397c;
+		}
+		/*Mobile Navigation End Restyle*/
+	/*Mobile Navigation END-RESET*/
+	a#mobile-menu{
+		display:inline-block;
+	}
+
+	footer p{
+		text-align:center;
+		margin-top:10px;
+	}
+	footer ul li{
+		float:none;
+		text-align:center;
+		border:none;
+		width:100%;
+	}
+	footer ul li a{
+		padding:0;
+	}
+}
+
+@media (max-width: 767px){
+	section#slider-parallax h1{
+		font-size:34px; /*fallback safari*/
+		font-size:6.8vw;
+		padding-top:0; /*fallback safari*/
+
+		text-align: center;
+	}
+	section#slider-parallax h3{
+		font-size:18px; /*fallback safari*/
+		font-size:4.5vw;
+		line-height:25px; /*fallback safari*/
+		line-height:5vw;
+		padding-top:0px; /*fallback safari*/
+		
+		text-align: center;
+	}
+	.button-style-1{
+		font-size: 25px; /*fallback safari*/
+		font-size: 4.9vw;
+		top: 10px; /*fallback safari*/
+		top:5vw;
+		
+		text-align: center;
+		display:block;
+	}
+	a.button-style-1:after{
+		font-size: 18px; /*fallback safari*/
+		font-size:4.2vw;
+	}
+
+	section#courses-seminars-books{
+		background:#041935;
+	}
+	section#slider-parallax div.wrap{
+		background:none;
+	}
+	section#slider-parallax{
+		height:auto;
+		padding-bottom:10%;
+	}
+	section#slider-parallax.coach p,
+	.section-style-1 p,
+	.section-style-1 li,
+	.enroll p,
+	.video-subscribe p,
+	p{
+		font-size:14px;
+	}
+	.video-subscribe h2,
+	h2{
+		font-size:20px;
+		line-height:22px;
+	}
+	h5,
+	h4,
+	h3{
+		font-size:18px;
+		line-height:22px;
+	}
+	#courses-seminars-books .icon-courses{
+		display:none;
+	}
+	.our-client{
+		width:auto;
+	}
+
+	.our-client a.client-logo img{
+		width:125px;
+	}
+
+	h1, h2, h3, h4, h5{font-weight:bold;}
+}
+
+@media (max-width: 400px){
+	a.logo img{
+		width:80%;
+		max-width:239px;
+		margin-top:5px;
+    }
+    section#container{
+		padding:10% 0;
+	}
+	.our-client a.client-logo img{
+		display:block;
+		margin:20px auto;
+		width:75px;
+	}
+}
+
+/*Safari Hacks Only*/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+		nav ul.menu{
+			margin-left: -500px;
+		}
+}

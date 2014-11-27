@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'Casper';
+    src: url('../fonts/casper.eot');
+    src: url('../fonts/casper.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/casper.woff2') format('woff2'),
+         url('../fonts/casper.woff') format('woff'),
+         url('../fonts/casper.ttf') format('truetype'),
+         url('../fonts/casper.svg#casperregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'mindcoach';
+	src:url('../fonts/mindcoach.eot?1elmyy');
+	src:url('../fonts/mindcoach.eot?#iefix1elmyy') format('embedded-opentype'),
+		url('../fonts/mindcoach.woff?1elmyy') format('woff'),
+		url('../fonts/mindcoach.ttf?1elmyy') format('truetype'),
+		url('../fonts/mindcoach.svg?1elmyy#mindcoach') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'mindcoach';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-foursquare:before {
+	content: "\e60d";
+}
+.icon-bullets:before {
+	content: "\e600";
+}
+.icon-flickr:before {
+	content: "\e601";
+}
+.icon-email:before {
+	content: "\e602";
+}
+.icon-arrowdown:before {
+	content: "\e603";
+}
+.icon-courses:before {
+	content: "\e604";
+}
+.icon-facebook:before {
+	content: "\e605";
+}
+.icon-google:before {
+	content: "\e606";
+}
+.icon-hyperlink:before {
+	content: "\e607";
+}
+.icon-instagram:before {
+	content: "\e608";
+}
+.icon-linkedin:before {
+	content: "\e609";
+}
+.icon-pinterest:before {
+	content: "\e60a";
+}
+.icon-twitter:before {
+	content: "\e60b";
+}
+.icon-youtube:before {
+	content: "\e60c";
+}
+.why-coach-padding{
+	background:rgba(7,41,89,.8);
+	padding:5% 6%;
+	margin-top:40px;
+}
+.why-coach-padding p{
+	color:#fff;
+	font-weight:100;
+	font-size: 18px;
+}
+.why-coach-padding p{
+	color:#fff;
+}
+section#slider-parallax.coach h3{
+	padding-top:0;
+	margin-top:0;
+}
+
+h1{
+	font-size:58px;
+}
+h1.small{
+	font-size:48px;
+}
+h2{
+	font-size:40px;
+	line-height:50px;
+	margin-top:0;
+	padding-top:0;
+}
+h3{
+	font-size:35px;
+}
+h4{
+	font-size:30px;
+	line-height:36px;
+}
+h5{
+	color:#072959;
+	font-size:25px;
+}
+p{
+	font-size:20px
+}
+.icon-bullets{
+	font-size:22px;
+	font-weight:800;
+	color:#1e59ac;
+	position:relative;
+	top:5px;
+}
+.enroll p{
+	font-size:16px;
+	margin:20px 0 40px;
+	line-height: 22px;
+}
+
+section#courses-seminars-books h4{
+	font-weight:bold;
+	color:#5acbff;
+}
+
+.enroll a.enroll-course{
+	background: #fb7f0f;
+	padding:10px 20px;
+	border: 3px solid #d27421;
+	font-size:18px;
+	color:#fff;
+	text-transform: uppercase;
+
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+.enroll a.enroll-course:hover{
+	background: #2489c2;
+	border: 3px solid #2062aa;
+	text-decoration:none;	
+}
+
+h2 strong{color: #072959}
+
+.video-subscribe h2{
+	line-height:40px;
+	color:#fff;
+	padding-bottom:4%;
+}
+.video-subscribe p{
+	color:#fff;
+	font-size:26px;
+}
+
+section#slider-parallax h1,
+section#slider-parallax h3{
+	color:#fff;
+}
+
+section#slider-parallax h1{
+	padding-top:50px;
+}
+
+section#slider-parallax h3{
+	padding-top:24px;
+	line-height:50px;
+}
+
+section#container.dark-blue h4{
+	padding-top:0;
+	margin-top:0;
+	color:#fff;
+	font-weight:100;
+}
+
+
+.button-style-1{
+	font-size: 29px;
+	color:#fff;
+	background:#fb7f0f;
+	padding:20px;
+	border:3px solid #d27421;
+	position:relative;
+	top:50px;
+
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+.button-style-1:hover:after,
+.button-style-1:hover{
+	text-decoration:none;
+	color:#fff;
+	background:#2489c2;
+}
+
+.button-style-1:hover{
+	border:3px solid #2062aa;
+}
+
+a.button-style-1:after{
+	font-family: 'mindcoach';
+	content: "\e603";
+	font-size:22px;
+	color:#fff;
+	margin-left:15px;
+}
+
+
+.video-subscribe form span.emailaddress:before{
+	font-family: 'mindcoach';
+	content: "\e602";
+	font-size:22px;
+	color:#fff;
+	position:relative;
+	top:43px;
+	left:15px;
+	color:#072959;
+	font-size:20px;
+	z-index:999;
+
+}
+.video-subscribe form span.icon-email:before{
+	position:relative;
+	top:38px;
+	left:15px;
+	color:#072959;
+	font-size:20px;
+}
+.video-subscribe input[type=email].form-control{
+	font-family: 'Casper';
+	width:100%;
+	color:#fff;
+	border:none;
+	background:#1e59ac;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	height:48px;
+	font-size:20px;
+	padding-left:60px;
+}
+
+.video-subscribe input[type="submit"]{
+	width:100%;
+	margin-top:3%;
+	height:48px;
+	background:#fb7f0f;
+	border:none;
+	color:#fff;
+	font-size:26px;
+	text-transform: uppercase;
+}
+
+.video-subscribe input[type="submit"]:hover{
+	background:#2489c2;
+}
+
+section#courses-seminars-books .icon-courses{
+	font-size:240px;
+	color:#0085c3;
+}
+
+#courses-seminars-books p{
+	color:#fff;
+}
+#courses-seminars-books a{
+	color:#f9a020;
+}
+#courses-seminars-books a:hover{
+	text-decoration:none;
+}
+
+.our-client{
+	width:680px;
+	margin:0 auto;
+}
+
+.our-client a.client-logo img{
+	margin:0 auto;
+	padding:0 3%;
+}
+
+.social-icons div.wrap{
+	width:100%;
+	max-width:768px;
+	margin:0 auto;
+}
+
+.social-icons a span{
+	color:#93a6c0;
+	font-size:24px;
+	line-height:0;
+	position:relative;
+	width:1px;
+	margin:0 auto;
+
+
+	padding:29px 29px;
+	display:inline-block;
+	text-align: center;
+}
+
+.social-icons a{
+	display: inline-block;
+	margin-right:5px;
+	margin-bottom:1%;
+	border:7px solid #93a6c0;
+
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+
+}
+
+.social-icons a:hover,
+.social-icons a:hover span{
+	text-decoration:none;
+	color:#131a46;
+	border-color:#131a46;
+}
+
+.social-icons a span.icon-facebook{		left:-4px;	}
+.social-icons a span.icon-instagram{	left:-11px;	}
+.social-icons a span.icon-pinterest{	left:-9px;	}
+.social-icons a span.icon-twitter{		left:-13px;	}
+.social-icons a span.icon-linkedin{		left:-11px;	}
+.social-icons a span.icon-google{		left:-11px;	}
+.social-icons a span.icon-youtube{		left:-16px;	}
+.social-icons a span.icon-flickr{		left:-14px;	}
+.social-icons a span.icon-foursquare{	left:-12px;	}
+
+
+.section-style-1 h4,
+.section-style-1 p{
+}
+.section-style-1 p{
+	margin-top:3%;
+	font-size:18px;
+	line-height:28px;
+}
+.section-style-1 h4{
+	font-weight:800;
+	color:#0a397c;
+}
+
+.color-white{
+	color:#fff;
+}
+.color-dark-blue{
+	color:#0a397c;
+}
+.color-black{
+	color:#000;
+}
+
+
+.section-style-1 li{
+	font-size:18px;
+	margin-left:-5px;
+	line-height: 28px;
+}
+
+.section-style-1 h5{
+	color:#0085c3;
+	padding:4% 0;
+}

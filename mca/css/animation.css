@@ -1,0 +1,115 @@
+nav ul.menu.active-menu{
+  -webkit-animation: pullLeft .325s ease-in-out; /* Safari 4+ */
+  -moz-animation:    pullLeft .325s ease-in-out; /* Fx 5+ */
+  -o-animation:      pullLeft .325s ease-in-out; /* Opera 12+ */
+  animation:         pullLeft .325s ease-in-out; /* IE 10+, Fx 29+ */
+
+  -webkit-animation-fill-mode: forwards; /* Safari 4+ */
+  -moz-animation-fill-mode:    forwards; /* Fx 5+ */
+  -o-animation-fill-mode:      forwards; /* Opera 12+ */
+  animation-fill-mode:         forwards; /* IE 10+, Fx 29+ */
+}
+
+nav ul.menu.inactive-menu{
+  -webkit-animation: pullRight .15s ease-in; /* Safari 4+ */
+  -moz-animation:    pullRight .15s ease-in; /* Fx 5+ */
+  -o-animation:      pullRight .15s ease-in; /* Opera 12+ */
+  animation:         pullRight .15s ease-in; /* IE 10+, Fx 29+ */
+}
+body.showAnimation .showAnimation,
+body.showAnimation section{
+  -webkit-animation: zoomOutFade .25s ease-in-out; /* Safari 4+ */
+  -moz-animation:    zoomOutFade .25s ease-in-out; /* Fx 5+ */
+  -o-animation:      zoomOutFade .25s ease-in-out; /* Opera 12+ */
+  animation:         zoomOutFade .25s ease-in-out; /* IE 10+, Fx 29+ */
+
+  -webkit-animation-fill-mode: forwards; /* Safari 4+ */
+  -moz-animation-fill-mode:    forwards; /* Fx 5+ */
+  -o-animation-fill-mode:      forwards; /* Opera 12+ */
+  animation-fill-mode:         forwards; /* IE 10+, Fx 29+ */
+}
+
+body.hideAnimation .hideAnimation,
+body.hideAnimation section{
+  -webkit-animation: zoomInFade .25s ease-in-out; /* Safari 4+ */
+  -moz-animation:    zoomInFade .25s ease-in-out; /* Fx 5+ */
+  -o-animation:      zoomInFade .25s ease-in-out; /* Opera 12+ */
+  animation:         zoomInFade .25s ease-in-out; /* IE 10+, Fx 29+ */
+
+  -webkit-animation-fill-mode: forwards; /* Safari 4+ */
+  -moz-animation-fill-mode:    forwards; /* Fx 5+ */
+  -o-animation-fill-mode:      forwards; /* Opera 12+ */
+  animation-fill-mode:         forwards; /* IE 10+, Fx 29+ */
+}
+
+nav ul.menu li a{
+  -webkit-animation: menuBlur .15s ease-in; /* Safari 4+ */
+  -moz-animation:    menuBlur .15s ease-in; /* Fx 5+ */
+  -o-animation:      menuBlur .15s ease-in; /* Opera 12+ */
+  animation:         menuBlur .15s ease-in; /* IE 10+, Fx 29+ */
+}
+
+
+nav ul.menu li.current_menu_item a,
+nav ul.menu li.current_page_item a,
+nav ul.menu li a:hover{
+  -webkit-animation: menuHover .15s ease-in-out; /* Safari 4+ */
+  -moz-animation:    menuHover .15s ease-in; /* Fx 5+ */
+  -o-animation:      menuHover .15s ease-in; /* Opera 12+ */
+  animation:         menuHover .15s ease-in; /* IE 10+, Fx 29+ */
+
+  -webkit-animation-fill-mode: forwards; /* Safari 4+ */
+  -moz-animation-fill-mode:    forwards; /* Fx 5+ */
+  -o-animation-fill-mode:      forwards; /* Opera 12+ */
+  animation-fill-mode:         forwards; /* IE 10+, Fx 29+ */
+}
+
+
+section[loading] li:nth-child(1){
+  -webkit-animation: loaderOnPop .475s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop .475s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop .475s infinite; /* Opera 12+ */
+  animation:         loaderOnPop .475s infinite; /* IE 10+, Fx 29+ */
+}
+
+section[loading] li:nth-child(2){
+  -webkit-animation: loaderOnPop 1.25s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop 1.25s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop 1.25s infinite; /* Opera 12+ */
+  animation:         loaderOnPop 1.25s infinite; /* IE 10+, Fx 29+ */
+}
+
+section[loading] li:nth-child(3){
+  -webkit-animation: loaderOnPop2 4.75s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop2 4.75s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop2 4.75s infinite; /* Opera 12+ */
+  animation:         loaderOnPop2 4.75s infinite; /* IE 10+, Fx 29+ */
+}
+
+section[loading] li:nth-child(4){
+  -webkit-animation: loaderOnPop2 .75s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop2 .75s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop2 .75s infinite; /* Opera 12+ */
+  animation:         loaderOnPop2 .75s infinite; /* IE 10+, Fx 29+ */
+}
+
+section[loading] li:nth-child(5){
+  -webkit-animation: loaderOnPop 7.75s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop 7.75s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop 7.75s infinite; /* Opera 12+ */
+  animation:         loaderOnPop 7.75s infinite; /* IE 10+, Fx 29+ */
+}
+
+section[loading] li:nth-child(6){
+  -webkit-animation: loaderOnPop2 1.275s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop2 1.275s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop2 1.275s infinite; /* Opera 12+ */
+  animation:         loaderOnPop2 1.275s infinite; /* IE 10+, Fx 29+ */
+}
+
+section[loading] li:nth-child(7){
+  -webkit-animation: loaderOnPop 2.75s infinite; /* Safari 4+ */
+  -moz-animation:    loaderOnPop 2.75s infinite; /* Fx 5+ */
+  -o-animation:      loaderOnPop 2.75s infinite; /* Opera 12+ */
+  animation:         loaderOnPop 2.75s infinite; /* IE 10+, Fx 29+ */
+}
