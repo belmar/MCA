@@ -102,10 +102,6 @@
 			 animation: none !important;
 			
 		}
-
-
-		nav ul.menu li.current_menu_item a,
-		nav ul.menu li.current_page_item a,
 		nav ul.menu li:last-child a:hover,
 		nav ul.menu li a:hover{
 			background:#fff;
@@ -129,6 +125,32 @@
 	}
 	footer ul li a{
 		padding:0;
+	}
+
+
+	section.cross50-white,
+	section.cross50-grey,
+	section.cross50-blue,
+	section.cross50-dblue{
+		width:100%;
+		float:none;
+		height:auto;
+		padding:30px;
+	}
+	.page-what-you-get ul.the-blue-list li,
+	.page-what-you-get ul.the-blue-list2 li{
+		margin-left:20px;
+	}
+
+
+}
+
+
+
+@media (max-width: 991px){
+	section .box5 p {padding-left:0;}
+	section .box5 i.icon-quote{
+		display:none;
 	}
 }
 
@@ -173,6 +195,8 @@
 		height:auto;
 		padding-bottom:10%;
 	}
+
+	.page-what-you-get section p,
 	section#slider-parallax.coach p,
 	.section-style-1 p,
 	.section-style-1 li,
@@ -186,6 +210,9 @@
 		font-size:20px;
 		line-height:22px;
 	}
+
+	section p.text-style-1,
+	.bg-thefirstyellow h4,
 	h5,
 	h4,
 	h3{
@@ -204,6 +231,33 @@
 	}
 
 	h1, h2, h3, h4, h5{font-weight:bold;}
+
+
+	section.cross50-white,
+	section.cross50-grey,
+	section.cross50-blue,
+	section.cross50-dblue,
+	li{
+		font-size:14px!important;
+	}
+
+	section.form-3-control input[type=email],
+	section.form-3-control input[type=submit],
+	section.form-2-control input[type=email],
+	section.form-2-control input[type=submit],
+	section.form-1-control input[type=email],
+	section.form-1-control input[type=submit]{
+		width:100%;
+		dispplay:block;
+		margin-left:0;
+		margin-top:10px;
+	}
+
+	section.form-3-control span.icon-email:before,
+	section.form-2-control span.icon-email:before,
+	section.form-1-control span.icon-email:before{
+		margin-top:23px;
+	}
 }
 
 @media (max-width: 400px){
@@ -220,7 +274,7 @@
 		margin:20px auto;
 		width:75px;
 	}
-}
+
 
 /*Safari Hacks Only*/
 @media screen and (-webkit-min-device-pixel-ratio:0) { 

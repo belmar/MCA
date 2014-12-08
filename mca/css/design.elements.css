@@ -36,6 +36,13 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
+.icon-quote:before {
+	content: "\e60e";
+}
+.icon-time:before {
+	content: "\e60f";
+}
 .icon-foursquare:before {
 	content: "\e60d";
 }
@@ -226,20 +233,20 @@ a.button-style-1:after{
 	margin-left:15px;
 }
 
-
-.video-subscribe form span.emailaddress:before{
-	font-family: 'mindcoach';
-	content: "\e602";
-	font-size:22px;
-	color:#fff;
-	position:relative;
-	top:43px;
-	left:15px;
+section.form-3-control span.icon-email:before,
+section.form-2-control span.icon-email:before,
+section.form-1-control span.icon-email:before{
+	position:absolute;
 	color:#072959;
 	font-size:20px;
-	z-index:999;
-
+	margin-left:14px;
+	margin-top:13px;
 }
+
+section.form-2-control span.icon-email:before{
+	color:#898989;
+}
+
 .video-subscribe form span.icon-email:before{
 	position:relative;
 	top:38px;
@@ -373,7 +380,9 @@ section#courses-seminars-books .icon-courses{
 .color-black{
 	color:#000;
 }
-
+.color-grey{
+	color:#8b8a8a;
+}
 
 .section-style-1 li{
 	font-size:18px;
@@ -384,4 +393,16 @@ section#courses-seminars-books .icon-courses{
 .section-style-1 h5{
 	color:#0085c3;
 	padding:4% 0;
+}
+
+
+section#slider-parallax.what-you-get h3{
+	padding:60px 0 40px;
+}
+section#slider-parallax.what-you-get h4{
+	color:#fff;
+}
+
+section#container.bg-brainbg h4{
+	color:#8b8a8a;
 }

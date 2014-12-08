@@ -49,9 +49,6 @@ nav ul.menu li a{
   animation:         menuBlur .15s ease-in; /* IE 10+, Fx 29+ */
 }
 
-
-nav ul.menu li.current_menu_item a,
-nav ul.menu li.current_page_item a,
 nav ul.menu li a:hover{
   -webkit-animation: menuHover .15s ease-in-out; /* Safari 4+ */
   -moz-animation:    menuHover .15s ease-in; /* Fx 5+ */
